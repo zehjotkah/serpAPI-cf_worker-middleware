@@ -42,7 +42,7 @@ If you prefer using the Wrangler CLI:
 
 Once deployed, point your website to your worker's URL:
 
-`https://your-worker-name.your-subdomain.workers.dev/?api_key=YOUR_SERPAPI_KEY&place_id=YOUR_PLACE_ID`
+`https://your-worker-name.your-subdomain.workers.dev/`
 
 ### Parameters:
 *   `api_key`: Your SerpApi key.
@@ -51,3 +51,4 @@ Once deployed, point your website to your worker's URL:
 *   `sort_by`: `newestFirst` (default), `highestRating`, `lowestRating`.
 *   `rating`: Filter by rating (e.g., `5` or `4,5`).
 *   `only_with_reviews`: Set to `true` to exclude reviews without text.
+*   `hl`: Define language (ISO 639) of the reviews.
